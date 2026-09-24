@@ -238,6 +238,32 @@ footer .footer-contact a:hover{
   .ai-avatar-btn img{width:80px;height:80px;}
   .ai-avatar-tip{font-size:10px;padding:3px 10px;}
 }
+ .song-buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:18px;
+}
+.song-btn{
+  display:inline-block;
+  background:linear-gradient(135deg,#B22222,#8B1A1A);
+  color:#F5D76E;
+  padding:12px 26px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:900;
+  letter-spacing:2px;
+  font-size:15px;
+  border:2px solid #E6B422;
+  transition:.3s;
+  box-shadow:0 4px 12px rgba(139,26,26,.3);
+}
+.song-btn:hover{
+  background:linear-gradient(135deg,#E6B422,#F5D76E);
+  color:#8B1A1A;
+  transform:translateY(-3px) scale(1.05);
+  box-shadow:0 8px 20px rgba(230,180,34,.6);
+} 
 </style>
 </head>
 <body>
@@ -290,17 +316,22 @@ footer .footer-contact a:hover{
     </div>
   </div>
 
-  <div class="block-section">
-    <a class="block-header" href="works.html">
-      <span class="block-num">03</span>
-      <span class="block-title">红音品读·歌韵传习</span>
-      <span class="block-arrow">→</span>
-    </a >
-    <div class="block-body">
-      <p>精选《黄河大合唱》《生产大合唱》《南泥湾》《延安颂》《白毛女》《神女》等延安时期经典作品，从创作背景、音乐结构、思想内涵等角度进行赏析。</p >
-      <p>同时结合《南泥湾》《兰花花》《山丹丹开花红艳艳》《二月里来》《东方红》等歌曲，进行学唱实训教学。</p >
+<div class="block-section">
+  <div class="block-header" style="cursor:default;">
+    <span class="block-num">03</span>
+    <span class="block-title">红音品读·歌韵传习</span>
+  </div>
+  <div class="block-body">
+    <p>精选延安时期经典红色歌曲，点击下方歌曲名称，进入学唱实训详情页。</p >
+    <div class="song-buttons">
+      <a href=" " class="song-btn">南泥湾</a >
+      <a href="song-lanhuahua.html" class="song-btn">兰花花</a >
+      <a href="song-shandandan.html" class="song-btn">山丹丹开花红艳艳</a >
+      <a href="song-eryuelai.html" class="song-btn">二月里来</a >
+      <a href="song-dongfanghong.html" class="song-btn">东方红</a >
     </div>
   </div>
+</div>
 
   <div class="block-section">
     <a class="block-header" href="drama.html">
