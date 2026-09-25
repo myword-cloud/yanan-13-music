@@ -136,6 +136,19 @@ body{font-family:"Microsoft YaHei","PingFang SC","Noto Serif SC",serif;backgroun
   margin-bottom:10px;
 }
 .block-body p:last-child{margin-bottom:0;}
+  
+  .drama-videos{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:20px;
+  margin-top:18px;
+}
+.drama-videos video{
+  width:100%;
+  border-radius:8px;
+  display:block;
+  box-shadow:0 6px 18px rgba(139,26,26,.2);
+}
 
 /* ===== 页尾 ===== */
 footer{
@@ -333,16 +346,24 @@ footer .footer-contact a:hover{
   </div>
 </div>
 
-  <div class="block-section">
-    <a class="block-header" href="drama.html">
-      <span class="block-num">04</span>
-      <span class="block-title">红剧演绎·情景再现</span>
-      <span class="block-arrow">→</span>
-    </a >
-    <div class="block-body">
-      <p>以短剧形式沉浸式演绎延安红色故事，通过情景再现，让历史“活”起来，让红色音乐的精神在当代青年心中生根发芽。</p >
+<div class="block-section">
+  <div class="block-header" style="cursor:default;">
+    <span class="block-num">04</span>
+    <span class="block-title">红剧演绎·情景再现</span>
+  </div>
+  <div class="block-body">
+    <p>以短剧形式沉浸式演绎延安红色故事，通过情景再现，让历史“活”起来，让红色音乐的精神在当代青年心中生根发芽。</p >
+    <div class="drama-videos">
+      <video controls>
+        <source src="drama1.mp4" type="video/mp4">
+        您的浏览器不支持视频播放。
+      </video>
+      <video controls>
+        <source src="drama2.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
+</div>
 
   <div class="block-section">
     <a class="block-header" href="game.html">
